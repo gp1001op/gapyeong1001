@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1001안경콘택트 가평읍내점 | 가평 안경원</title>
+<meta name="description" content="1997년부터 가평과 함께한 2대째 안경원. 정밀 검안, 맞춤 안경 컨설팅, 전문 피팅, 누진다초점·기능성 렌즈 상담. 경기도 가평군 가평읍 가화로 104-1.">
+<meta property="og:title" content="1001안경콘택트 가평읍내점">
+<meta property="og:description" content="아버지와 아들이 함께하는 가평 안경원. 정확한 검안부터 사후관리까지.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="logo-square.png">
+<link rel="icon" type="image/png" href="logo-square.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Optician",
+  "name": "1001안경콘택트 가평읍내점",
+  "telephone": "+82-31-582-2138",
+  "foundingDate": "1997-09-20",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "가평읍 가화로 104-1",
+    "addressLocality": "가평군",
+    "addressRegion": "경기도",
+    "addressCountry": "KR"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "10:00", "closes": "19:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "19:00" }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/gapyeong_1001",
+    "https://blog.naver.com/gp1001op"
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --navy: #1d2b45;
+    --navy-soft: #2c3e5f;
+    --gold: #c8701f; /* 간판 주황색 계열 */
+    --bg: #faf8f5;
+    --card: #ffffff;
+    --text: #222831;
+    --muted: #6b7280;
+    --line: #e7e2da;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: "Noto Sans KR", system-ui, -apple-system, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.7;
+    word-break: keep-all;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+
+  /* 상단 메뉴 */
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+  }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .logo { display: flex; align-items: center; gap: 10px; color: var(--navy); text-decoration: none; font-weight: 700; font-size: 15px; }
+  .logo img { height: 44px; width: auto; display: block; }
+
+  .about-grid { display: grid; gap: 40px; grid-template-columns: 1.1fr 1fr; align-items: center; }
+  .about-grid img { width: 100%; height: auto; border-radius: 14px; display: block; }
+  @media (max-width: 820px) { .about-grid { grid-template-columns: 1fr; } }
+  nav a { text-decoration: none; margin-left: 20px; font-size: 15px; color: var(--muted); }
+  nav a:hover { color: var(--navy); }
+  @media (max-width: 720px) { nav { display: none; } }
+
+  /* 첫 화면 */
+  .hero {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-soft) 100%);
+    color: #fff;
+    padding: 88px 0 80px;
+  }
+  /* 매장 사진이 생기면 store.jpg 로 넣고 아래 주석을 풀면 배경 사진이 됩니다.
+  .hero { background: linear-gradient(rgba(29,43,69,.75), rgba(29,43,69,.75)), url("store.jpg") center/cover; }
+  */
+  .eyebrow { color: var(--gold); font-weight: 500; letter-spacing: .05em; margin: 0 0 12px; }
+  .hero h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.3; margin: 0 0 16px; }
+  .hero p.lead { font-size: 18px; opacity: .9; margin: 0 0 32px; max-width: 560px; }
+  .btns { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn {
+    display: inline-block; padding: 13px 24px; border-radius: 999px;
+    text-decoration: none; font-weight: 500; font-size: 16px;
+  }
+  .btn-gold { background: var(--gold); color: #fff; }
+  .btn-line { border: 1px solid rgba(255,255,255,.6); color: #fff; }
+  .status {
+    display: inline-block; margin-top: 28px; font-size: 14px;
+    padding: 6px 14px; border-radius: 999px; background: rgba(255,255,255,.12);
+  }
+
+  /* 공통 섹션 */
+  section { padding: 72px 0; }
+  section:nth-of-type(even) { background: #fff; }
+  h2 { font-size: 28px; color: var(--navy); margin: 0 0 8px; }
+  .sub { color: var(--muted); margin: 0 0 36px; }
+
+  .about p { font-size: 17px; max-width: 760px; }
+
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 24px;
+  }
+  .card h3 { margin: 0 0 8px; font-size: 18px; color: var(--navy); }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  .num { color: var(--gold); font-weight: 700; font-size: 14px; display: block; margin-bottom: 6px; }
+
+  .equip { margin-top: 28px; padding: 24px; border-radius: 14px; background: var(--navy); color: #fff; }
+  .equip strong { color: var(--gold); }
+
+  .brand-group { margin-bottom: 28px; }
+  .brand-group h3 { font-size: 17px; margin: 0 0 12px; color: var(--navy); }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag {
+    padding: 7px 14px; border-radius: 999px; background: var(--bg);
+    border: 1px solid var(--line); font-size: 15px;
+  }
+
+  .reviews { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
+  .review { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 24px; display: flex; flex-direction: column; }
+  .review .stars { color: var(--gold); letter-spacing: 2px; font-size: 15px; margin-bottom: 10px; }
+  .review blockquote { margin: 0 0 16px; font-size: 16px; line-height: 1.75; flex: 1; }
+  .review .who { font-size: 14px; color: var(--muted); }
+  .review-note { margin-top: 20px; font-size: 13px; color: var(--muted); }
+  .review-more { margin-top: 24px; }
+  .review-more a { display: inline-block; padding: 12px 22px; border-radius: 999px; border: 1px solid var(--navy); color: var(--navy); text-decoration: none; font-weight: 500; }
+  .review-more a:hover { background: var(--navy); color: #fff; }
+
+  .two { display: grid; gap: 32px; grid-template-columns: 1fr 1fr; }
+  @media (max-width: 820px) { .two { grid-template-columns: 1fr; } }
+
+  table.hours { width: 100%; border-collapse: collapse; font-size: 16px; }
+  table.hours td { padding: 12px 4px; border-bottom: 1px solid var(--line); }
+  table.hours td:last-child { text-align: right; }
+  table.hours tr.today td { color: var(--navy); font-weight: 700; }
+  .closed { color: #b4534b; }
+
+  .info-list { list-style: none; padding: 0; margin: 0 0 20px; }
+  .info-list li { padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .info-list b { display: inline-block; width: 72px; color: var(--muted); font-weight: 500; }
+  .map { width: 100%; height: 300px; border: 0; border-radius: 14px; }
+  .map-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .map-links a {
+    text-decoration: none; font-size: 14px; padding: 8px 14px; border-radius: 999px;
+    border: 1px solid var(--line); background: #fff;
+  }
+
+  footer { background: var(--navy); color: rgba(255,255,255,.8); padding: 40px 0; font-size: 14px; }
+  footer a { color: #fff; }
+  footer .sns { margin-top: 12px; display: flex; gap: 16px; }
+
+  /* 휴대폰 하단 전화 버튼 */
+  .call-bar { display: none; }
+  @media (max-width: 720px) {
+    .call-bar {
+      display: block; position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 20;
+      text-align: center; padding: 14px; border-radius: 999px;
+      background: var(--gold); color: #fff; text-decoration: none; font-weight: 700;
+      box-shadow: 0 6px 20px rgba(0,0,0,.2);
+    }
+    footer { padding-bottom: 96px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top"><img src="logo.png" alt="일공공일 안경·콘택트 가평읍내점"></a>
+    <nav>
+      <a href="#about">소개</a>
+      <a href="#services">서비스</a>
+      <a href="#brands">브랜드</a>
+      <a href="#reviews">고객 후기</a>
+      <a href="#visit">영업시간·오시는 길</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero" id="top">
+  <div class="wrap">
+    <p class="eyebrow">SINCE 1997 · 가평 2대째 안경원</p>
+    <h1>아버지와 아들이 함께하는<br>가평 안경원</h1>
+    <p class="lead">정확한 검안부터 착용감 조정, 사후관리까지.<br>시력 상태와 생활환경에 꼭 맞는 안경을 제안해 드립니다.</p>
+    <div class="btns">
+      <a class="btn btn-gold" href="tel:031-582-2138">전화하기 031-582-2138</a>
+      <a class="btn btn-line" href="#visit">오시는 길</a>
+    </div>
+    <div class="status" id="open-status">영업시간을 확인하세요</div>
+  </div>
+</div>
+
+<section id="about" class="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div>
+        <h2>안경원 소개</h2>
+        <p class="sub">1997년부터 가평 고객님들과 함께해 왔습니다.</p>
+        <p>1001안경콘택트 가평읍내점은 가평 고객님들과 함께해 온 2대째 안경원입니다. 세대를 이어 쌓아온 경험과 최신 기술을 바탕으로 고객님께 최적의 시생활을 제공해 드리겠습니다.</p>
+        <p>저희는 단순히 안경을 판매하는 것이 아니라, 고객님의 시력 상태와 생활환경을 고려하여 가장 편안하고 선명한 시야를 위한 안경을 제안해 드립니다.</p>
+      </div>
+      <img src="store-front.jpg" alt="1001안경콘택트 가평읍내점 매장 전경" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <h2>서비스</h2>
+    <p class="sub">검안부터 피팅까지 한 곳에서 체계적으로 도와 드립니다.</p>
+    <div class="grid">
+      <div class="card"><span class="num">01</span><h3>정밀 검안 · 시력 상담</h3><p>현재 시력 상태를 정확히 확인하고 불편한 점을 함께 살펴봅니다.</p></div>
+      <div class="card"><span class="num">02</span><h3>라이프스타일 맞춤 컨설팅</h3><p>직업, 생활 습관, 사용 환경에 맞는 안경을 제안해 드립니다.</p></div>
+      <div class="card"><span class="num">03</span><h3>전문 피팅 · 착용감 조정</h3><p>얼굴형에 맞춰 편안하게 쓸 수 있도록 세밀하게 조정합니다.</p></div>
+      <div class="card"><span class="num">04</span><h3>기능성 렌즈 상담</h3><p>누진다초점, 변색렌즈, 기능성 렌즈, 고도근시·난시 렌즈를 상담해 드립니다.</p></div>
+      <div class="card"><span class="num">05</span><h3>예약 고객 우선 상담</h3><p>예약하고 방문하시면 기다림 없이 상담받으실 수 있습니다.</p></div>
+    </div>
+    <div class="equip">
+      <strong>정밀 장비</strong><br>
+      에실로 아이룰러2 3D 정밀 계측 장비와 하세가와 전문 피팅 시스템으로 정확한 검안부터 편안한 착용감까지 책임집니다.
+    </div>
+  </div>
+</section>
+
+<section id="brands">
+  <div class="wrap">
+    <h2>취급 브랜드</h2>
+    <p class="sub">다양한 수입·국산 브랜드를 직접 비교 착용해 보실 수 있습니다.</p>
+
+    <div class="brand-group">
+      <h3>안경테</h3>
+      <div class="tags">
+        <span class="tag">레이밴</span><span class="tag">샤르망</span><span class="tag">포르쉐디자인</span>
+        <span class="tag">로덴스톡</span><span class="tag">BYWP</span><span class="tag">스틸브라운</span>
+        <span class="tag">마노모스</span><span class="tag">이츠모</span><span class="tag">애쉬크로프트</span>
+      </div>
+    </div>
+    <div class="brand-group">
+      <h3>안경렌즈</h3>
+      <div class="tags">
+        <span class="tag">호야</span><span class="tag">에실로</span><span class="tag">니콘</span>
+        <span class="tag">펜탁스</span><span class="tag">다가스</span><span class="tag">케미렌즈</span>
+      </div>
+    </div>
+    <div class="brand-group">
+      <h3>콘택트렌즈</h3>
+      <div class="tags">
+        <span class="tag">아큐브</span><span class="tag">알콘</span><span class="tag">바슈롬</span>
+        <span class="tag">클라렌</span><span class="tag">쿠퍼비전</span><span class="tag">네오비전</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <h2>고객 후기</h2>
+    <p class="sub">네이버에 고객님들이 직접 남겨 주신 방문자 리뷰입니다.</p>
+    <div class="reviews">
+      <figure class="review" style="margin:0">
+        <div class="stars" aria-label="별점 5점">★★★★★</div>
+        <blockquote>가평에서 믿고 안경을 맞출 수 있는 곳이 있다니!!!! 디자인도 다양하고 친절하시고 설명도 잘 해주시고 매장도 깔끔하고 부족함이 없는 매장입니다. 오늘은 엄마 안경~~ 담엔 제 안경 맞추러 올게용~~</blockquote>
+        <figcaption class="who">백○○○○ 님 · 2026.10.22 방문</figcaption>
+      </figure>
+      <figure class="review" style="margin:0">
+        <div class="stars" aria-label="별점 5점">★★★★★</div>
+        <blockquote>원장님께서 친절하시고 검안을 꼼꼼히 봐주세요!! 직원분도 안경테 골라주시는데 정말 친절히 봐주시더라구요 ㅎㅎ 덕분에 잘 어울리는 안경 맞췄습니다~~</blockquote>
+        <figcaption class="who">청○○○○ 님 · 2026.9.23 방문</figcaption>
+      </figure>
+      <figure class="review" style="margin:0">
+        <div class="stars" aria-label="별점 5점">★★★★★</div>
+        <blockquote>매장이 깔끔하고 안경종류도 다양해서 선택의 폭이 넓었어요. 무엇보다도 친절하시고 검사도 꼼꼼히 봐주셔요. 가평안경점은 여기추천드려요!!</blockquote>
+        <figcaption class="who">co○○○ 님 · 2026.8.26 방문</figcaption>
+      </figure>
+      <figure class="review" style="margin:0">
+        <div class="stars" aria-label="별점 5점">★★★★★</div>
+        <blockquote>시력검사나 안경추천등 친절하고 꼼꼼하게 해 주시네요 종류가 다양해 선택의 폭이 넓어서 좋아요</blockquote>
+        <figcaption class="who">강○○ 님 · 2026.11.21 방문</figcaption>
+      </figure>
+      <figure class="review" style="margin:0">
+        <div class="stars" aria-label="별점 5점">★★★★★</div>
+        <blockquote>안경 테가 부러져서 처음 와봤는데, 안경 맞춰주시는 분도 친절하시고 좋았어요!! 편안한 분위기와 합리적인 가격으로 안경을 맞출 수 있었습니다.</blockquote>
+        <figcaption class="who">dk○○ 님 · 2026.10.5 방문</figcaption>
+      </figure>
+      <figure class="review" style="margin:0">
+        <div class="stars" aria-label="별점 5점">★★★★★</div>
+        <blockquote>예전에도 엄청 친절하다고 느꼈는데 여전히 친절하신 사장님 제품설명도 상세히 해주시고 앞으로 단골이 될듯 합니다 번창하세요</blockquote>
+        <figcaption class="who">lo○○ 님</figcaption>
+      </figure>
+    </div>
+    <p class="review-note">네이버 방문자 리뷰 중 일부를 내용 그대로 옮겼으며, 닉네임은 일부 가렸습니다.</p>
+    <div class="review-more">
+      <a href="https://map.naver.com/p/search/1001%EC%95%88%EA%B2%BD%EC%BD%98%ED%83%9D%ED%8A%B8%20%EA%B0%80%ED%8F%89%EC%9D%8D%EB%82%B4%EC%A0%90" target="_blank" rel="noopener">네이버에서 리뷰 더 보기</a>
+    </div>
+  </div>
+</section>
+
+<section id="visit">
+  <div class="wrap">
+    <h2>영업시간 · 오시는 길</h2>
+    <p class="sub">방문 전 전화 주시면 더 빠르게 안내해 드립니다.</p>
+    <div class="two">
+      <div>
+        <table class="hours" id="hours">
+          <tr data-day="1"><td>월요일</td><td>10:00 – 19:00</td></tr>
+          <tr data-day="2"><td>화요일</td><td>10:00 – 19:00</td></tr>
+          <tr data-day="3"><td>수요일</td><td>10:00 – 19:00</td></tr>
+          <tr data-day="4"><td>목요일</td><td>10:00 – 19:00</td></tr>
+          <tr data-day="5"><td>금요일</td><td>10:00 – 19:00</td></tr>
+          <tr data-day="6"><td>토요일</td><td>10:00 – 19:00</td></tr>
+          <tr data-day="0"><td>일요일</td><td class="closed">정기 휴무</td></tr>
+        </table>
+
+        <h3 style="margin:32px 0 8px;color:var(--navy);font-size:17px;">결제 수단</h3>
+        <div class="tags">
+          <span class="tag">카드 결제</span><span class="tag">지역화폐카드</span><span class="tag">가평사랑상품권</span>
+          <span class="tag">온누리상품권</span><span class="tag">신세계상품권</span>
+        </div>
+      </div>
+      <div>
+        <ul class="info-list">
+          <li><b>주소</b>경기도 가평군 가평읍 가화로 104-1</li>
+          <li><b>지번</b>가평읍 읍내리 350-1</li>
+          <li><b>전화</b><a href="tel:031-582-2138">031-582-2138</a></li>
+        </ul>
+        <iframe class="map" loading="lazy" title="1001안경콘택트 가평읍내점 위치"
+          src="https://maps.google.com/maps?q=%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EA%B0%80%ED%8F%89%EA%B5%B0%20%EA%B0%80%ED%8F%89%EC%9D%8D%20%EA%B0%80%ED%99%94%EB%A1%9C%20104-1&z=17&output=embed"></iframe>
+        <div class="map-links">
+          <a href="https://map.naver.com/p/search/1001%EC%95%88%EA%B2%BD%EC%BD%98%ED%83%9D%ED%8A%B8%20%EA%B0%80%ED%8F%89%EC%9D%8D%EB%82%B4%EC%A0%90" target="_blank" rel="noopener">네이버 지도</a>
+          <a href="https://map.kakao.com/?q=1001%EC%95%88%EA%B2%BD%EC%BD%98%ED%83%9D%ED%8A%B8%20%EA%B0%80%ED%8F%89%EC%9D%8D%EB%82%B4%EC%A0%90" target="_blank" rel="noopener">카카오맵</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=1001%EC%95%88%EA%B2%BD%EC%BD%98%ED%83%9D%ED%8A%B8%20%EA%B0%80%ED%8F%89%EC%9D%8D%EB%82%B4%EC%A0%90" target="_blank" rel="noopener">구글 지도</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <strong style="color:#fff;">1001안경콘택트 가평읍내점</strong><br>
+    경기도 가평군 가평읍 가화로 104-1 · <a href="tel:031-582-2138">031-582-2138</a>
+    <div class="sns">
+      <a href="https://www.instagram.com/gapyeong_1001" target="_blank" rel="noopener">인스타그램</a>
+      <a href="https://blog.naver.com/gp1001op" target="_blank" rel="noopener">네이버 블로그</a>
+    </div>
+  </div>
+</footer>
+
+<a class="call-bar" href="tel:031-582-2138">📞 전화 문의 031-582-2138</a>
+
+<script>
+  // 영업시간: 요일(0=일) → [여는 시각, 닫는 시각] (분 단위). null 은 휴무.
+  const HOURS = {
+    0: null,
+    1: [600, 1140], 2: [600, 1140], 3: [600, 1140], 4: [600, 1140], 5: [600, 1140],
+    6: [600, 1140]
+  };
+  try {
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone: "Asia/Seoul", weekday: "short", hour: "2-digit", minute: "2-digit", hour12: false
+    }).formatToParts(new Date());
+    const get = t => parts.find(p => p.type === t).value;
+    const day = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].indexOf(get("weekday"));
+    const mins = (parseInt(get("hour"), 10) % 24) * 60 + parseInt(get("minute"), 10);
+    const row = document.querySelector('#hours tr[data-day="' + day + '"]');
+    if (row) row.classList.add("today");
+    const today = HOURS[day];
+    const el = document.getElementById("open-status");
+    if (today && mins >= today[0] && mins < today[1]) {
+      el.textContent = "● 지금 영업 중 · 오후 " + (today[1] / 60 - 12) + "시까지";
+    } else {
+      el.textContent = "지금은 영업시간이 아닙니다";
+    }
+  } catch (e) { /* 시간 표시가 안 돼도 나머지는 정상 표시 */ }
+</script>
+</body>
+</html>
